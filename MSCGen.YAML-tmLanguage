@@ -1,0 +1,10 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: MSCGen
+scopeName: source.mscgen
+fileTypes: ["msc"]
+uuid: e49e950f-fac2-4f70-acde-dfd2c996cc8d
+
+patterns:
+-
+...
