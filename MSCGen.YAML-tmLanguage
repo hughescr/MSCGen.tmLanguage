@@ -6,5 +6,8 @@ fileTypes: ["msc"]
 uuid: e49e950f-fac2-4f70-acde-dfd2c996cc8d
 
 patterns:
--
+- comment: Just a basic scope for error prevention
+  name: meta.body
+  begin: 'msc\s*\{'
+  end: '\}'
 ...

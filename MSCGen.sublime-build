@@ -1,0 +1,4 @@
+{
+    "selector": "source.mscgen",
+    "cmd":  ["mscgen","-T","png","-o","${file_base_name}.png","$file"]
+}

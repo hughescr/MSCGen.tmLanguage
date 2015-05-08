@@ -10,7 +10,16 @@
 	<string>MSCGen</string>
 	<key>patterns</key>
 	<array>
-		<false/>
+		<dict>
+			<key>begin</key>
+			<string>msc\s*\{</string>
+			<key>comment</key>
+			<string>Just a basic scope for error prevention</string>
+			<key>end</key>
+			<string>\}</string>
+			<key>name</key>
+			<string>meta.body</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.mscgen</string>
